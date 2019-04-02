@@ -16,7 +16,7 @@ git通常会从以下来源获取忽略模式(优先级从高到低)：
 * 如果只是在某个项目中使用，无需分享，则定义在 `$GIT_DIR/info/exclude` 中
 * 如果是要在所有的项目中都执行相同的忽略模式，则定义在 `core.excludesFile` 指定的文件中
 
-####规则：
+#### 规则：
 
 * 空行不匹配任何文件，所以为了方便阅读可以在适当位置添加空格。
 * \# 开头的行表示注释。Put a backslash ("\\") in front of the first hash for patterns that begin with a hash。
