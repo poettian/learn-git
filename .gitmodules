@@ -1,3 +1,4 @@
 [submodule "hello-world"]
 	path = hello-world
 	url = https://github.com/poettian/hello-world
+	branch = dev
